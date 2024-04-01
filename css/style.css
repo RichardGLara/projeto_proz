@@ -13,6 +13,7 @@
     --color2: #222222;
     --color3: #333333;
     --color4: #444444;
+    --color5: #555555;
 }
 
 body {
@@ -52,4 +53,10 @@ footer  {
 
 .menu_texto  {
     padding: 20px;
+}
+
+.secoes{
+    width: 94%;
+    height: 400px;
+    background-color: var(--color5);
 }
