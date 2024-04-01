@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    /*Reset CSS*/
+}
+
+body {
+    background-color: #222222;
+    color: #ffffff;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer  {
+    background-color: #111111;
+}
+
+.corpo {
+    background-color: #333333;
+    width: 70%;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.cabecalho  {
+    background-color: #444444;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: space-around;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+}
+
+.logo_header {
+    height: 120px;
+}
+
+.menu_texto  {
+    padding: 20px;
+}
