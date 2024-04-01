@@ -6,9 +6,17 @@
     /*Reset CSS*/
 }
 
+:root { /*Variáveis para o nosso CSS*/
+    --colorf: #ffffff;
+    --color1: #111111;
+    --color2: #222222;
+    --color3: #333333;
+    --color4: #444444;
+}
+
 body {
-    background-color: #222222;
-    color: #ffffff;
+    background: var(--color2);
+    color: var(--colorf);
     font-size: 100%;
     display: flex;
     flex-direction: column;
@@ -16,18 +24,18 @@ body {
 }
 
 footer  {
-    background-color: #111111;
+    background-color: var(--color1);
 }
 
 .corpo {
-    background-color: #333333;
+    background-color: var(--color3);
     width: 70%;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
 }
 
 .cabecalho  {
-    background-color: #444444;
+    background-color: var(--color4);
     height: 140px;
     display: flex;
     flex-direction: row;
