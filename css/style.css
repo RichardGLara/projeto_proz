@@ -8,18 +8,20 @@
 }
 
 :root { /*Variáveis para o nosso CSS*/
-    --color0: #252626; /*header*/
-    --color1: #65615c; /*footer*/
-    --color2: #c3bfbc; /*corpo*/
-    --color3: #eaeae5; /*body*/
-    --color4: #ffffff; /*branco*/
-    --color5: #c3bfbc; /*fonte clara*/
-    --color6: #2e2b29; /*fonte escura*/
+    --azul_escuro: #103d5c; /*header*/
+    --azul_medio: #536582; /*footer*/
+    --azul_claro: #869ca9; /*body*/
+    --azul_palido: #e6e7e2; /*corpo*/
+    --branco: #ffffff; /*branco*/
+    --marrom_claro: #4b3b3a; /*marrom*/
+    --marron_escuro: #2b2b2b; /*fonte escura*/
+    --areia: #c9a795; /*areia*/
+    --vermelho: #a6252b; /*vermelho*/
 }
 
 body {
-    background: var(--color2);
-    color: var(--color0);
+    background: var(--azul_claro);
+    color: var(--branco);
     font-size: 100%;
     display: flex;
     flex-direction: column;
@@ -28,7 +30,7 @@ body {
 }
 
 .corpo {
-    background-color: var(--color3);
+    background-color: var(--azul_palido);
     width: 70%;
     margin-top: 6px;
     border-top-left-radius: 60px;
@@ -36,7 +38,7 @@ body {
 }
 
 .cabecalho  {
-    background-color: var(--color0);
+    background-color: var(--azul_escuro);
     height: 140px;
     display: flex;
     flex-direction: row;
@@ -51,12 +53,12 @@ body {
 }
 
 .menu_texto {
-    color: var(--color5);
+    color: var(--branco);
     padding: 20px;
 }
 
 main {
-    background-color: var(--color3);
+    background-color: var(--azul_palido);
     display: flex;
     flex-direction: column;
     align-items: center;   
@@ -65,31 +67,34 @@ main {
 .secoes {
     width: 96%;
     height: 400px;
-    background-color: var(--color3);
+    background-color: var(--azul_palido);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
 .bloco1 {
-    background-color: var(--color4);
+    background-color: var(--branco);
     width: 48%;
 }
 
 .bloco2 {
-    background-color: var(--color4);
+    background-color: var(--branco);
     width: 48%;
 }
 
 footer  {
-    background-color: var(--color1);
+    background-color: var(--azul_medio);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .sociais {
-    background-color: var(--color1);
-    height: 100px;
+    background-color: var(--azul_medio);
+    height: 60px;
+    width: 60%;
+
 }
 
 .logo_footer {
